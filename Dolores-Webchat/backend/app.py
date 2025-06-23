@@ -18,4 +18,4 @@ def chat():
 
 if __name__ == "__main__":
     app.run(debug=True)
-"@ | Out-File -Encoding utf8 .\Dolores-Webchat\Dolores-Webchat\backend\app.py
+"@ | Set-Content -Encoding utf8 .\Dolores-Webchat\Dolores-Webchat\backend\app.py
